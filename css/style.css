@@ -1,0 +1,187 @@
+*{
+	margin: 0 px;
+	padding: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+
+}
+.header{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+}
+.logo{
+	width: 100px;
+}
+
+.box1{
+	width: 40%;
+	float: left;
+}
+.box2{
+	width: 60%;
+	float: left;
+}
+.navbar{
+	width: 100%;
+	float: left;
+	display: block;
+	text-align: right;
+	margin: 25px 0px 0px;
+}
+.navbar li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar li a{
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0px 20px;
+	color: #000;
+	transition: 1s;
+
+}
+.navbar li a:hover{
+	color: #08c;
+}
+/* this is comments */
+
+.about{
+	width: 100%;
+	padding: 80px 0px;
+	background: #fff;
+	float: left;
+
+}
+.box1{
+	width: 50%;
+	float: left;
+}
+.box1 h2{
+	font-size: 46px;
+	line-height: 56px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	margin: 70px opx 0px;
+} 
+.box1 p{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	
+}
+
+.box2{
+	width: 50%;
+	float: left;
+}
+.image{
+	width: 100%;
+}
+.service{
+	width: 100%;
+	height: 300px;
+	float: left;
+	background: yellow;
+
+
+}
+.service .box3{
+	width: 30%;
+	height: 170px;
+	background: hotpink;
+	float: left;
+	margin: 60px 15px;
+	border-radius: 4%;
+	border: 2px solid #000;
+	cursor: pointer;
+	transition: 1s;
+}
+.service .box3:hover{
+	background: transparent;
+	color: black;
+}
+
+.service .box3 h2{
+	margin: 20px 0px 0px 50px;
+}
+.service .box3 p{
+	margin: 20px 0px 0px 10px;
+}
+
+.service .box4{
+	width: 30%;
+	height: 170px;
+	background: #14A888;
+	float: left;
+	margin: 60px 15px;
+	border-radius: 4%;
+	border: 2px solid #000;
+	cursor: pointer;
+	transition: 1s;
+}
+.service .box4:hover{
+	background: transparent;
+	color: black;
+}
+
+.service .box4 h2{
+	margin: 20px 0px 0px 50px;
+}
+.service .box4 p{
+	margin: 20px 0px 0px 10px;
+}
+
+.service .box5{
+	width: 30%;
+	height: 170px;
+	background: deepskyblue;
+	float: left;
+	margin: 60px 15px;
+	border-radius: 4%;
+	border: 2px solid #000;
+	cursor: pointer;
+	transition: 1s;
+	
+}
+.service .box5:hover{
+	background: transparent;
+	color: black;
+}
+
+.service .box5 h2{
+	margin: 20px 0px 0px 50px;
+}
+.service .box5 p{
+	margin: 20px 0px 0px 10px;
+}
+.footer{
+	width: 100%;
+	height: 300px;
+	background: #eee;
+	float: left;
+}
+.box7{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	line-height: 34px;
+	color: #08c;
+	margin: 220px 0px 0px;
+}
